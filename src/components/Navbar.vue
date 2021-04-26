@@ -33,6 +33,11 @@
             Cars
           </router-link>
         </li>
+        <li class="nav-item">
+          <router-link :to="{ name: 'Jobs' }" class="nav-link">
+            Jobs
+          </router-link>
+        </li>
       </ul>
     </div>
   </nav>

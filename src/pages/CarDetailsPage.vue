@@ -23,6 +23,7 @@ export default {
     // ROUTER is the toolset of changing routes automatically
     const router = useRouter()
     const state = reactive({
+      // REVIEW what does computed do here
       car: computed(() => AppState.activeCar)
     })
 
